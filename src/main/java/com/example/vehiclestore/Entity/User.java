@@ -1,8 +1,12 @@
 package com.example.vehiclestore.Entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 
 import javax.persistence.*;
+import java.util.LinkedHashSet;
+import java.util.Set;
+
 
 @Entity
 @Data
@@ -24,5 +28,14 @@ public class User {
 
     @Column(name = "email", nullable = false, unique = true)
     private String email;
+
+
+    @JsonIgnore
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
+    private Set<Motorcycle> motorcycles = new LinkedHashSet<>();
+
+    @JsonIgnore
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
+    private Set<Car> cars = new LinkedHashSet<>();
 
 }

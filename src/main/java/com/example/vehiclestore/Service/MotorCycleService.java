@@ -6,4 +6,5 @@ import org.springframework.http.HttpStatus;
 public interface MotorCycleService {
 
     Motorcycle addMotorCycle(Motorcycle motorcycle);
+    Motorcycle findById(Long mID);
 }

@@ -16,4 +16,11 @@ public class MotorCycleServiceImpl implements MotorCycleService {
     public Motorcycle addMotorCycle(Motorcycle motorcycle) {
         return motorcycleRepository.save(motorcycle);
     }
+
+    @Override
+    public Motorcycle findById(Long mID) {
+        return motorcycleRepository.findById(mID).orElseThrow(
+                () -> new RuntimeException("MotorCycle not Found")
+        );
+    }
 }
