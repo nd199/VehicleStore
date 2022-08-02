@@ -1,4 +1,4 @@
-package com.example.vehiclestore.Entity;
+package com.naren.vehiclestore.Entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

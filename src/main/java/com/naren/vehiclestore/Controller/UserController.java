@@ -1,11 +1,11 @@
-package com.example.vehiclestore.Controller;
+package com.naren.vehiclestore.Controller;
 
-import com.example.vehiclestore.Entity.Car;
-import com.example.vehiclestore.Entity.Motorcycle;
-import com.example.vehiclestore.Entity.User;
-import com.example.vehiclestore.Service.CarService;
-import com.example.vehiclestore.Service.MotorCycleService;
-import com.example.vehiclestore.Service.UserService;
+import com.naren.vehiclestore.Entity.Car;
+import com.naren.vehiclestore.Entity.Motorcycle;
+import com.naren.vehiclestore.Entity.User;
+import com.naren.vehiclestore.Service.CarService;
+import com.naren.vehiclestore.Service.MotorCycleService;
+import com.naren.vehiclestore.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

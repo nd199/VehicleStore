@@ -1,4 +1,4 @@
-package com.example.vehiclestore.Entity;
+package com.naren.vehiclestore.Entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;

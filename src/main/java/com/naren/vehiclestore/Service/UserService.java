@@ -1,6 +1,6 @@
-package com.example.vehiclestore.Service;
+package com.naren.vehiclestore.Service;
 
-import com.example.vehiclestore.Entity.User;
+import com.naren.vehiclestore.Entity.User;
 
 public interface UserService {
     User addUser(User user);

@@ -1,8 +1,8 @@
-package com.example.vehiclestore.Service.Impl;
+package com.naren.vehiclestore.Service.Impl;
 
-import com.example.vehiclestore.Entity.User;
-import com.example.vehiclestore.Repository.UserRepository;
-import com.example.vehiclestore.Service.UserService;
+import com.naren.vehiclestore.Entity.User;
+import com.naren.vehiclestore.Repository.UserRepository;
+import com.naren.vehiclestore.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

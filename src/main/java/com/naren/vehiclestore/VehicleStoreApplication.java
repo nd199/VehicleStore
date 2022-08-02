@@ -1,4 +1,4 @@
-package com.example.vehiclestore;
+package com.naren.vehiclestore;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

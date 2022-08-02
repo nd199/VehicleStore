@@ -1,6 +1,6 @@
-package com.example.vehiclestore.Repository;
+package com.naren.vehiclestore.Repository;
 
-import com.example.vehiclestore.Entity.User;
+import com.naren.vehiclestore.Entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Long> {

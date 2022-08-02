@@ -1,6 +1,6 @@
-package com.example.vehiclestore.Service;
+package com.naren.vehiclestore.Service;
 
-import com.example.vehiclestore.Entity.Car;
+import com.naren.vehiclestore.Entity.Car;
 
 public interface CarService {
     Car addCar(Car car);
